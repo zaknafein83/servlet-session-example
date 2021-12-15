@@ -32,6 +32,7 @@ public class GestioneRedirect extends HttpServlet{
 			req.getServletContext().getRequestDispatcher("/allFilms.jsp").forward(req, resp);
 			break;
 		case "6":
+			req.getSession().invalidate();
 			req.getServletContext().getRequestDispatcher("/index.jsp").forward(req, resp);
 			break;
 		default:

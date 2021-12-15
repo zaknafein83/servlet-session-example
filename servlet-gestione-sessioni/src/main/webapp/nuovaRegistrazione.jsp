@@ -20,6 +20,4 @@
 	<input type="submit" value="Registrati">
 	
 </form>
-
-</body>
-</html>
+<%@ include file ="footer.jsp" %>

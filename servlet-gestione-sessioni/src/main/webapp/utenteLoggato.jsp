@@ -10,14 +10,4 @@
 <body>
 
 <h1>Benvenuto <c:out value="${sessionScope.utente.username }" /> </h1>
-
-<form action="redirect">
-	<button name="scelta" value="3" type="submit">Aggiungi nuovo film visto</button><br/>
-	<button name="scelta" value="4" type="submit">Elenco di film visti da te</button><br/>
-	<button name="scelta" value="5" type="submit">Tutti i film</button><br/>
-	<button name="scelta" value="6" type="submit">LogOut</button><br/>
-
-</form>
-
-</body>
-</html>
+<%@ include file ="footer.jsp" %>

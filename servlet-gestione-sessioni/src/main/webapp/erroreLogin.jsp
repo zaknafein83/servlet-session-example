@@ -13,6 +13,4 @@ Utente non presente
 <form action="redirect">
 	<button name="scelta" value="6" type="submit">HomePage</button><br/>
 </form>
-
-</body>
-</html>
+<%@ include file ="footer.jsp" %>
